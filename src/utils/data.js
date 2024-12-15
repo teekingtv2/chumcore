@@ -1,3 +1,21 @@
+export const howItWorksData = [
+  {
+    title: "Connect",
+    description: "Sync with your friends to see their trusted recommendations.",
+    image: "user.svg",
+  },
+  {
+    title: "Discover",
+    description: "Explore the best spots tailored to your interests.",
+    image: "credit-card-6.svg",
+  },
+  {
+    title: "Enjoy",
+    description: "Hang out, review, and share your experiences",
+    image: "loan.svg",
+  },
+];
+
 export const partnerLogos = [
   "binance.svg",
   "bybit.png",

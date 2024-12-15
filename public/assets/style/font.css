@@ -1,84 +1,75 @@
-.ibm-plex-mono-thin {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-extralight {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-light {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-regular {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-medium {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-semibold {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-bold {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .ibm-plex-mono-thin-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-extralight-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-light-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-regular-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-medium-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-semibold-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .ibm-plex-mono-bold-italic {
-    font-family: "IBM Plex Mono", monospace;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
+.dm-sans-thin {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.dm-sans-extralight {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.dm-sans-light {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans-medium {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.dm-sans-semibold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.dm-sans-bold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.dm-sans-thin-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.dm-sans-extralight-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.dm-sans-extralight-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+.dm-sans-light-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.dm-sans-regular-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.dm-sans-medium-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.dm-sans-semibold-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.dm-sans-bold-italic {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
