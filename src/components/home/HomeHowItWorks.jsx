@@ -14,7 +14,7 @@ const HomeHowItWorks = () => {
               <FaQuestion />
             </div>
           </div>
-          <h1 className="text-[30px] md:text-[40px] font-medium mb-5 ">
+          <h1 className="text-[28px] md:text-[40px] font-medium mb-4 ">
             Here is <span className="font-bold">how</span> it{" "}
             <span className="font-bold">works</span>
           </h1>

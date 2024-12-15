@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 const HowCard = ({ title, description, image }) => {
   return (
-    <div className="col-span-1 flex flex-col gap-7 orange-box text-black">
+    <div className="col-span-1 flex flex-col gap-5 md:gap-7 orange-box text-black">
       <div className="text-2xl md:text-3xl font-bold ">{title}</div>
       <div className="text-gray-700 text-[17px] mb-2">{description}</div>
       <div className="flex justify-between items-center">
