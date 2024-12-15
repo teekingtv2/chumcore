@@ -92,18 +92,15 @@ const NavBar = () => {
             <div
               className={
                 nav
-                  ? "fixed left-0 top-0 ease-in duration-500 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000fa] p-10 "
-                  : "fixed left-[-130%] top-0 ease-in duration-500 p-10"
+                  ? "fixed left-0 top-0 ease-in duration-500 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#000000fa] py-10 px-5"
+                  : "fixed left-[-130%] top-0 ease-in duration-500 py-10"
               }
             >
               <div>
                 <div className="flex w-full justify-between items-center">
                   <Link to="/" className="flex flex-col gap-0">
-                    <p className="uppercase font-bold text-[22px] text-white tracking-[8px] leading-[15px] mb-0">
-                      Elder
-                    </p>
-                    <p className="lowercase text-[12px] text-white tracking-widest mt-0">
-                      Intelligence
+                    <p className="uppercase font-bold text-[20px] text-white tracking-[8px] leading-[15px] mb-0">
+                      Chumcore
                     </p>
                   </Link>
                   <div
@@ -126,59 +123,34 @@ const NavBar = () => {
                   >
                     <li className="py-4 text-sm">Home</li>
                   </Link>
-                  <Link
+                  <AnchorLink
                     onClick={() => setNav(false)}
-                    to="/about"
+                    href="#how-it-works"
                     className={
-                      activeLink === "about" ? "active" : "text-gray-200"
+                      activeLink === "#how-it-works"
+                        ? "active"
+                        : "text-gray-200"
                     }
                   >
-                    <li className="py-4 text-sm">About</li>
-                  </Link>
-                  <Link
+                    <li className="py-4 text-sm">How It Wworks</li>
+                  </AnchorLink>
+                  <AnchorLink
                     onClick={() => setNav(false)}
-                    to="/media"
+                    href="#why-us"
                     className={
-                      activeLink === "media" ? "active" : "text-gray-200"
+                      activeLink === "#why0us" ? "active" : "text-gray-200"
                     }
                   >
-                    <li className="py-4 text-sm">Media</li>
-                  </Link>
+                    <li className="py-4 text-sm">Why Us</li>
+                  </AnchorLink>
                   <Link
                     onClick={() => setNav(false)}
-                    to="/markets"
-                    className={
-                      activeLink === "alert" ? "active" : "text-gray-200"
-                    }
-                  >
-                    <li className="py-4 text-sm">Alert</li>
-                  </Link>
-                  <Link
-                    onClick={() => setNav(false)}
-                    to="/markets"
-                    className={
-                      activeLink === "market" ? "active" : "text-gray-200"
-                    }
-                  >
-                    <li className="py-4 text-sm">Market</li>
-                  </Link>
-                  <Link
-                    onClick={() => setNav(false)}
-                    to="/contact"
+                    to=""
                     className={
                       activeLink === "contact" ? "active" : "text-gray-200"
                     }
                   >
-                    <li className="py-4 text-sm">Contact</li>
-                  </Link>
-                  <Link
-                    onClick={() => setNav(false)}
-                    to="/api"
-                    className={
-                      activeLink === "api" ? "active" : "text-gray-200"
-                    }
-                  >
-                    <li className="py-4 text-sm">API</li>
+                    <li className="py-4 text-sm">Sign Up</li>
                   </Link>
                 </ul>
                 <div className="pt-40">
