@@ -7,8 +7,8 @@ const HomeWhyChumcore = () => {
       className="w-[100vw] flex flex-col items-center py-10 px-5 md:px-20 lg:px-28 xl:px-32"
       id="why-us"
     >
-      <div className="w-full why-chumcore-box rounded-[50px] pt-[70px] pb-[70px] md:pt-[150px] md:pb-[150px] items-center px-8 md:px-0">
-        <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="w-full why-chumcore-box rounded-[50px] pt-[70px] pb-[70px] md:pt-[150px] md:pb-[150px] items-center">
+        <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-8 md:px-20">
           <div className="col-span-1 flex flex-col gap-7 md:gap-[30px]">
             <div className="w-full mx-auto mb-4 md:mb-14">
               <div className="flex justify-start mb-3">
