@@ -3,8 +3,11 @@ import { FaQuestion } from "react-icons/fa";
 
 const HomeWhyChumcore = () => {
   return (
-    <div className="w-[100vw] flex flex-col items-center py-10 px-5 md:px-20 lg:px-28 xl:px-32">
-      <div className="w-full why-chumcore-box rounded-[70px] pt-[100px] pb-[180px] md:pt-[150px] md:pb-[150px] items-center px-5 md:px-0">
+    <div
+      className="w-[100vw] flex flex-col items-center py-10 px-5 md:px-20 lg:px-28 xl:px-32"
+      id="why-us"
+    >
+      <div className="w-full why-chumcore-box rounded-[50px] pt-[70px] pb-[70px] md:pt-[150px] md:pb-[150px] items-center px-8 md:px-0">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="col-span-1 flex flex-col gap-7 md:gap-[30px]">
             <div className="w-full mx-auto mb-4 md:mb-14">
@@ -23,7 +26,7 @@ const HomeWhyChumcore = () => {
                 <p className="w-[50px] h-[50px] flex justify-center items-center rounded-full bg-chumWine text-white text-xl font-bold">
                   01
                 </p>
-                <p className="text-[20px] font-semibold">
+                <p className="text-[17px] md:text-[20px] font-semibold">
                   Authentic Recommendations:{" "}
                 </p>
               </div>
@@ -34,7 +37,9 @@ const HomeWhyChumcore = () => {
                 <p className="w-[50px] h-[50px] flex justify-center items-center rounded-full bg-chumWine text-white text-xl font-bold">
                   02
                 </p>
-                <p className="text-[20px] font-semibold">Save Time: </p>
+                <p className="text-[17px] md:text-[20px] font-semibold">
+                  Save Time:{" "}
+                </p>
               </div>
               <p>No more searching multiple platforms for the best spots.</p>
             </div>
@@ -43,7 +48,9 @@ const HomeWhyChumcore = () => {
                 <p className="w-[50px] h-[50px] flex justify-center items-center rounded-full bg-chumWine text-white text-xl font-bold">
                   03
                 </p>
-                <p className="text-[20px] font-semibold">Tailored to You: </p>
+                <p className="text-[17px] md:text-[20px] font-semibold">
+                  Tailored to You:{" "}
+                </p>
               </div>
               <p>Discover places based on your unique interests.</p>
             </div>

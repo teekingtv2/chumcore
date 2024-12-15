@@ -2,7 +2,7 @@ import React from "react";
 import Head from "../../components/globals/Head";
 import HomeSectionOne from "../../components/home/HomeSectionOne";
 import RowTwoSection from "../../components/home/HomeSectionTwo";
-import HomeSectionThree from "../../components/home/HomeSectionThree";
+import HomeHowItWorks from "../../components/home/HomeHowItWorks";
 import HomeSectionFour from "../../components/home/HomeSectionFour";
 import HomeWhyChumcore from "../../components/home/HomeWhyChumcore";
 import TopBar from "../../components/globals/TopBar";
@@ -14,7 +14,7 @@ const HomePage = () => {
       <Head pageTitle="Welcome to Elder Intelligence" />
       <HomeSectionOne />
       <HomeSectionTwo />
-      <HomeSectionThree />
+      <HomeHowItWorks />
       <HomeWhyChumcore />
     </>
   );

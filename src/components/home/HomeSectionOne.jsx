@@ -10,12 +10,12 @@ const HomeSectionOne = () => {
     <div
       className="px-5 md:px-0 h-full w-[100vw] banner-section"
       style={{
-        borderBottomLeftRadius: "100px",
-        borderBottomRightRadius: "100px",
+        borderBottomLeftRadius: "80px",
+        borderBottomRightRadius: "80px",
       }}
     >
       <div className="banner-section-inner w-full h-full">
-        <div className="container h-full py-20 md:py-40 grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-10 items-center">
+        <div className="container h-full py-28 md:py-40 grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-10 items-center">
           <div className="cols-span-1 flex flex-col md:pl-[15%]">
             <span className="font-bold uppercase text-sm text-white mb-2 bg-chumWine px-3 py-2 w-max leftRight">
               Travelling or Moving?
@@ -51,7 +51,7 @@ const HomeSectionOne = () => {
               </div>
             </Link>
           </div>
-          <div className="col-span-1">
+          <div className="hidden md:block col-span-1">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div

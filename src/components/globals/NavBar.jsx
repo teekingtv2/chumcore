@@ -11,6 +11,7 @@ import {
 import { Link } from "react-router-dom";
 import axios from "axios";
 import TopBar from "./TopBar";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 axios.defaults.withCredentials = true;
 // import useFetchCredential from "../api/useFetchCredential";
 
@@ -48,8 +49,8 @@ const NavBar = () => {
                 >
                   Home
                 </Link>
-                <Link
-                  href="/#how-it-works"
+                <AnchorLink
+                  href="#how-it-works"
                   className={
                     activeLink === "#how-it-works"
                       ? "active menu-link"
@@ -58,16 +59,16 @@ const NavBar = () => {
                   onClick={() => onUpdateActiveLink("#how-it-works")}
                 >
                   How It Works
-                </Link>
-                <Link
-                  href="/#why-us"
+                </AnchorLink>
+                <AnchorLink
+                  href="#why-us"
                   className={
                     activeLink === "#why-us" ? "active menu-link" : "menu-link"
                   }
                   onClick={() => onUpdateActiveLink("#why-us")}
                 >
                   Why Us
-                </Link>
+                </AnchorLink>
               </ul>
               <div onClick={handleNavToggle} className="md:hidden">
                 <AiOutlineMenu className="text-gray-900" size={25} />

@@ -1,11 +1,11 @@
 import React from "react";
 import { howItWorksData, partnerLogos } from "../../utils/data";
 import HowCard from "./HowCard";
-import { FaQuestion } from "./../../../node_modules/react-icons/fa/index.esm";
+import { FaQuestion } from "react-icons/fa/index.esm";
 
-const HomeSectionThree = () => {
+const HomeHowItWorks = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="how-it-works">
       <div className="container pt-16 pb-16 items-center px-8 md:px-0">
         <div className="w-full md:w-[70%] mx-auto md:text-center mb-14">
           <div className="flex justify-start md:justify-center mb-3">
@@ -35,4 +35,4 @@ const HomeSectionThree = () => {
   );
 };
 
-export default HomeSectionThree;
+export default HomeHowItWorks;
