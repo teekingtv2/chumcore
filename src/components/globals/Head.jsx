@@ -4,9 +4,7 @@ import { Helmet } from "react-helmet";
 const Head = ({ pageTitle }) => {
   return (
     <Helmet>
-      <title>
-        {import.meta.env.VITE_APP_NAME} - {pageTitle}
-      </title>
+      <title>Welcome to Chumcore</title>
       <meta
         name="description"
         content={`${
