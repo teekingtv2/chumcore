@@ -1,10 +1,4 @@
-import {
-  FaFacebook,
-  FaInstagram,
-  FaMailBulk,
-  FaTiktok,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaInstagram, FaMailBulk, FaTiktok } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa/index.esm";
 import { Link } from "react-router-dom";
 
@@ -16,18 +10,21 @@ const TopBar = () => {
           <Link
             to="https://www.instagram.com/chumcoreapp"
             className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
+            target="_blank"
           >
-            <FaFacebook />
+            <FaInstagram />
           </Link>
           <Link
             to="https://youtube.com/@chumcoreapp"
             className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
+            target="_blank"
           >
             <FaYoutube />
           </Link>
           <Link
             to="https://www.tiktok.com/@chumcore"
             className="cursor-pointer hover:scale-105 ease-in duration-300 border-x-[1px] border-[#ffffff71] py-4 px-3"
+            target="_blank"
           >
             <FaTiktok />
           </Link>
@@ -44,6 +41,7 @@ const TopBar = () => {
         <Link
           to="mailto:info@chumcore.io"
           className="w-max flex gap-2 justify-center items-center border-l-[1px] border-r-[1px] border-[#ffffffa1] py-3 px-2 md:px-5"
+          target="_blank"
         >
           <FaMailBulk />
           <span className="font-[400]">Mail Us</span>

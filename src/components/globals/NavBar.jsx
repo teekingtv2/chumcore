@@ -154,18 +154,21 @@ const NavBar = () => {
                     <Link
                       to="https://instagram.com/chumcoreapp"
                       className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                      target="_blank"
                     >
                       <FaInstagram />
                     </Link>
                     <Link
                       to="https://youtube.com/@chumcoreap"
                       className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                      target="_blank"
                     >
                       <FaYoutube />
                     </Link>
                     <Link
                       to="https://www.tiktok.com/@chumcore"
                       className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                      target="_blank"
                     >
                       <FaTiktok />
                     </Link>
