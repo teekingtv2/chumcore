@@ -45,11 +45,11 @@ const HomeSectionOne = () => {
             </TrackVisibility>
 
             <div className="flex items-center gap-6 mb-8 text-white">
-              <img
+              {/* <img
                 src="/assets/images/home/avatars.png"
                 alt=""
                 className="z-40 w-[120px] dancingSlide"
-              />
+              /> */}
               {/* <div className="flex flex-col">
                 <span className="text-3xl font-bold">1,000+</span>
                 <span className="text-sm">Active Subscribers</span>

@@ -75,7 +75,7 @@ const NavBar = () => {
               </div>
             </div>
 
-            <div className="hidden md:block btnn1 py-3 px-14 font-semibold">
+            <div className="hidden md:block title-box py-[10px] px-14 font-semibold">
               Sign Up
             </div>
           </div>
