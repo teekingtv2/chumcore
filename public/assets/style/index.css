@@ -138,15 +138,19 @@ html {
 .banner-section {
   /* background-image: linear-gradient(220deg, #f52f58 0%, #eaebff 100%); */
   /* background-image: linear-gradient(220deg, #eaebff 0%, #8cd1d0 100%); */
-  background-image: linear-gradient(220deg, #499998 0%, #134341 100%);
+  /* background-image: linear-gradient(220deg, #499998 0%, #134341 100%); */
+  background-image: linear-gradient(to bottom, #ef6c2b 0%, #fb2564 100%);
 }
 .why-chumcore-box {
-  background-image: linear-gradient(220deg, #f52f5733 0%, #ed6b1a3d 100%);
+  /* background-image: linear-gradient(220deg, #f52f5733 0%, #ed6b1a3d 100%); */
 }
 
 .btnn1 {
   color: #fff;
-  background: -webkit-linear-gradient(45deg, transparent 6px, #134341 6px),
+  background: #3bb6b3;
+  border-radius: 25px;
+  font-weight: bold;
+  /* background: -webkit-linear-gradient(45deg, transparent 6px, #134341 6px),
     -webkit-linear-gradient(135deg, transparent 6px, #134341 6px),
     -webkit-linear-gradient(225deg, transparent 6px, #134341 6px),
     -webkit-linear-gradient(315deg, transparent 6px, #134341 6px);
@@ -156,10 +160,11 @@ html {
   background-size: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
-  cursor: pointer;
+  cursor: pointer; */
 }
 .btnn1:hover {
-  transform: translateY(9px) translateX(6px) scale(1.05);
+  /* transform: translateY(9px) translateX(6px) scale(1.05); */
+  background: #156866;
   transition: 0.3s ease-in;
 }
 .btnn2 {
