@@ -11,6 +11,7 @@ const HowCard = ({ title, description, image }) => {
           src={`/assets/images/icons/${image}`}
           alt=""
           style={{ borderTopLeftRadius: "30px", borderTopRightRadius: "30px" }}
+          className="w-[60px]"
         />
         <div className="w-12 h-12 p-3 border-[#33333359] border-[1px] rounded-full flex justify-center items-center">
           <FaArrowUp className="text-chumOrange" />

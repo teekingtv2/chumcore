@@ -2,7 +2,7 @@ export const howItWorksData = [
   {
     title: "Connect",
     description: "Sync with your friends to see their trusted recommendations.",
-    image: "user.svg",
+    image: "connect.jpg",
   },
   {
     title: "Discover",
