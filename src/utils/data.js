@@ -7,12 +7,12 @@ export const howItWorksData = [
   {
     title: "Discover",
     description: "Explore the best spots tailored to your interests.",
-    image: "credit-card-6.svg",
+    image: "discover.png",
   },
   {
     title: "Enjoy",
     description: "Hang out, review, and share your experiences",
-    image: "loan.svg",
+    image: "enjoy.png",
   },
 ];
 
