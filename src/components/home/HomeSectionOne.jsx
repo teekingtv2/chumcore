@@ -18,9 +18,9 @@ const HomeSectionOne = () => {
       <div className="banner-section-inner w-full h-full">
         <div className="container h-full py-28 md:py-40 grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-10 items-center">
           <div className="cols-span-1 flex flex-col md:pl-[15%]">
-            <span className="font-bold uppercase text-sm text-black mb-2 bg-chumLightGreen px-3 py-2 w-max leftRight">
+            {/* <span className="font-bold uppercase text-sm text-black mb-2 bg-chumLightGreen px-3 py-2 w-max leftRight">
               Travelling or Moving?
-            </span>
+            </span> */}
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
