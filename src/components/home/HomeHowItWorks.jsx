@@ -8,16 +8,16 @@ const HomeHowItWorks = () => {
     <div className="w-full" id="how-it-works">
       <div className="container pt-16 pb-16 items-center px-8 md:px-0">
         <div className="w-full md:w-[70%] mx-auto md:text-center mb-14">
-          <div className="flex justify-start md:justify-center mb-3">
+          <div className="flex justify-center">
             <div className="flex items-center gap-2 px-6 py-2 title-box uppercase">
-              <span>Wonder how</span>
+              <span>How does it work</span>
               <FaQuestion />
             </div>
           </div>
-          <h1 className="text-[28px] md:text-[40px] font-medium mb-4 ">
+          {/* <h1 className="text-[28px] md:text-[40px] font-medium mb-4 ">
             Here is <span className="font-bold">how</span> it{" "}
             <span className="font-bold">works</span>
-          </h1>
+          </h1> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           {howItWorksData &&

@@ -56,7 +56,7 @@ const HomeSectionOne = () => {
               </div> */}
             </div>
             <Link to="" className="flex">
-              <div className="btnn1 py-4 px-10 text-[16px] font-bold flex justify-center items-center hover:scale-105 ease-in duration-300">
+              <div className="title-box py-4 px-10 text-[16px] font-bold flex justify-center items-center hover:scale-105 ease-in duration-300">
                 <span className="mr-2">Join Chumcore</span>
                 <span>
                   <FaArrowCircleRight />

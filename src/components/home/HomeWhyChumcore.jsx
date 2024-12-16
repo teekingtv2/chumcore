@@ -11,16 +11,16 @@ const HomeWhyChumcore = () => {
       <div className="w-full why-chumcore-box bg-[#F5F5F5] rounded-[50px] pt-[70px] pb-[70px] md:pt-[150px] md:pb-[150px] items-center">
         <div className="container grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-8 md:px-20">
           <div className="col-span-1 flex flex-col gap-7 md:gap-[30px]">
-            <div className="w-full mx-auto mb-4 md:mb-14">
-              <div className="flex justify-start mb-3">
+            <div className="w-full mx-auto mb-4 md:mb-6">
+              <div className="flex justify-center md:justify-start">
                 <div className="flex items-center gap-2 px-6 py-2 title-box uppercase">
-                  <span>Wonder why</span>
+                  Why <span className="font-bold">Chumcore</span>
                   <FaQuestion />
                 </div>
               </div>
-              <h1 className="text-[27px] md:text-[40px] font-medium mb-5 ">
+              {/* <h1 className="text-[27px] md:text-[40px] font-medium mb-5 ">
                 Why <span className="font-bold">Chumcore</span>?
-              </h1>
+              </h1> */}
             </div>
             <TrackVisibility>
               {({ isVisible }) => (
