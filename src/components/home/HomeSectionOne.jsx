@@ -30,10 +30,8 @@ const HomeSectionOne = () => {
                       : ""
                   }
                 >
-                  <h1 className="text-center text-white text-[30px] font-medium md:text-[50px] leading-[1.25em] mb-10">
-                    Discover <span className="font-black">Places</span> You'll
-                    Love, Recommended by{" "}
-                    <span className="font-black">People</span> You Trust
+                  <h1 className="text-center text-white text-[30px] font-semibold md:text-[50px] leading-[1.25em] mb-10">
+                    Discover Places You'll Love, Recommended by People You Trust
                   </h1>
                   <p className="text-center text-white mb-6 text-xl font-medium">
                     Stop scrolling through fake and paid reviews from strangers.

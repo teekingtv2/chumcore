@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import {
-  FaWallet,
-  FaSignOutAlt,
-  FaInstagram,
-  FaFacebook,
-  FaTwitter,
-  FaArrowCircleRight,
-} from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import TopBar from "./TopBar";
@@ -159,22 +152,22 @@ const NavBar = () => {
                   </p>
                   <div className="flex items-center justify-center gap-5 my-4 w-full sm:w-[80%] text-gray-200">
                     <Link
-                      to="https://x.com/"
-                      className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                    >
-                      <FaTwitter />
-                    </Link>
-                    <Link
-                      to="https://instagram.com/"
+                      to="https://instagram.com/chumcoreapp"
                       className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                     >
                       <FaInstagram />
                     </Link>
                     <Link
-                      to="https://facebook.com/"
+                      to="https://youtube.com/@chumcoreap"
                       className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                     >
-                      <FaFacebook />
+                      <FaYoutube />
+                    </Link>
+                    <Link
+                      to="https://www.tiktok.com/@chumcore"
+                      className="rounded-full shadow-md shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                    >
+                      <FaTiktok />
                     </Link>
                   </div>
                 </div>

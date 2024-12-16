@@ -1,4 +1,11 @@
-import { FaFacebook, FaInstagram, FaMailBulk, FaTwitter } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaMailBulk,
+  FaTiktok,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa/index.esm";
 import { Link } from "react-router-dom";
 
 const TopBar = () => {
@@ -7,22 +14,22 @@ const TopBar = () => {
       <div className="header-container px-2 md:px-0 py-0 flex justify-between items-center text-[#fff]">
         <div className="hidden md:flex gap-1 h-full">
           <Link
-            to="https://instagram.com/"
+            to="https://www.instagram.com/chumcoreapp"
             className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
           >
             <FaFacebook />
           </Link>
           <Link
-            to="https://instagram.com/"
+            to="https://youtube.com/@chumcoreapp"
             className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
           >
-            <FaInstagram />
+            <FaYoutube />
           </Link>
           <Link
-            to="https://instagram.com/"
+            to="https://www.tiktok.com/@chumcore"
             className="cursor-pointer hover:scale-105 ease-in duration-300 border-x-[1px] border-[#ffffff71] py-4 px-3"
           >
-            <FaTwitter />
+            <FaTiktok />
           </Link>
         </div>
 
@@ -35,7 +42,7 @@ const TopBar = () => {
         </marquee>
 
         <Link
-          to="mailto:"
+          to="mailto:info@chumcore.io"
           className="w-max flex gap-2 justify-center items-center border-l-[1px] border-r-[1px] border-[#ffffffa1] py-3 px-2 md:px-5"
         >
           <FaMailBulk />
