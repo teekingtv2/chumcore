@@ -16,8 +16,8 @@ const HomeSectionOne = () => {
       }}
     >
       <div className="banner-section-inner w-full h-full">
-        <div className="container h-full py-28 md:py-40 grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-10 items-center">
-          <div className="cols-span-1 flex flex-col md:pl-[15%]">
+        <div className="container h-full py-28 md:py-40 gap-28 md:gap-10 items-center">
+          <div className="w-full lg:w-[60%] mx-auto flex flex-col items-center">
             {/* <span className="font-bold uppercase text-sm text-black mb-2 bg-chumLightGreen px-3 py-2 w-max leftRight">
               Travelling or Moving?
             </span> */}
@@ -30,12 +30,12 @@ const HomeSectionOne = () => {
                       : ""
                   }
                 >
-                  <h1 className=" text-white text-[30px] font-medium md:text-[50px] leading-[1.25em] mb-10">
+                  <h1 className="text-center text-white text-[30px] font-medium md:text-[50px] leading-[1.25em] mb-10">
                     Discover <span className="font-black">Places</span> You'll
                     Love, Recommended by{" "}
                     <span className="font-black">People</span> You Trust
                   </h1>
-                  <p className="text-white mb-6 text-xl font-medium">
+                  <p className="text-center text-white mb-6 text-xl font-medium">
                     Stop scrolling through fake and paid reviews from strangers.
                     With Chumcore, find hangout spots recommended by friends and
                     make every outing memorable.
@@ -48,23 +48,23 @@ const HomeSectionOne = () => {
               <img
                 src="/assets/images/home/avatars.png"
                 alt=""
-                className="z-40 dancingSlide"
+                className="z-40 w-[120px] dancingSlide"
               />
-              <div className="flex flex-col">
-                <span className="text-3xl font-bold">1000+</span>
-                <span className="">Active Subscribers</span>
-              </div>
+              {/* <div className="flex flex-col">
+                <span className="text-3xl font-bold">1,000+</span>
+                <span className="text-sm">Active Subscribers</span>
+              </div> */}
             </div>
             <Link to="" className="flex">
               <div className="btnn1 py-4 px-10 text-[16px] font-bold flex justify-center items-center hover:scale-105 ease-in duration-300">
-                <span className="mr-2">Sign Up Free</span>
+                <span className="mr-2">Join Chumcore</span>
                 <span>
                   <FaArrowCircleRight />
                 </span>
               </div>
             </Link>
           </div>
-          <div className="hidden md:block col-span-1">
+          {/* <div className="hidden md:block col-span-1">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -130,7 +130,7 @@ const HomeSectionOne = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

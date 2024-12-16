@@ -138,8 +138,9 @@ html {
 .banner-section {
   /* background-image: linear-gradient(220deg, #f52f58 0%, #eaebff 100%); */
   /* background-image: linear-gradient(220deg, #eaebff 0%, #8cd1d0 100%); */
-  /* background-image: linear-gradient(220deg, #499998 0%, #134341 100%); */
-  background-image: linear-gradient(to bottom, #ef6c2b 0%, #fb2564 100%);
+  /* background-image: linear-gradient(220deg, #ef6c2b 0%, #134341 100%); */
+  /* background-image: linear-gradient(to bottom, #ef6c2b 0%, #fb2564 100%); */
+  background-image: linear-gradient(to bottom, #134341 0%, #072726 100%);
 }
 .why-chumcore-box {
   /* background-image: linear-gradient(220deg, #f52f5733 0%, #ed6b1a3d 100%); */
