@@ -9,7 +9,7 @@ const HomeSectionTwo = () => {
     <div className="w-[100vw] flex flex-col items-center">
       <div className="w-full mx-auto py-20 items-center px-5 md:px-0 relative">
         <img
-          src="/assets/images/home/pic1.jpg"
+          src="/assets/images/home/Hero_section.webp"
           alt=""
           className="w-full max-h-[800px]"
         />
