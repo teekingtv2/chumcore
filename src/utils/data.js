@@ -68,19 +68,22 @@ export const dashboardServices = [
 
 export const socialData = [
   {
-    username: "John Doe",
+    username: "Sophie",
     testimonial:
-      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+      "I had no idea which nail bar to pick in my new city. I really wished I could ask family or friends—they know my style better than random strangers online. In the end, I trusted a recommendation from a new friend, and it worked out great!",
+    avatar: "sophie.png",
   },
   {
-    username: "John Doe",
+    username: "Sonia",
     testimonial:
-      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+      "Khaya helped me discover my favorite brunch spot, and now I can't stop going!",
+    avatar: "sonia.png",
   },
   {
-    username: "John Doe",
+    username: "Khalid",
     testimonial:
-      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+      "Finding the right barbershop was so stressful when I first came here to study, but luckily, my new friends recommended a great spot.",
+    avatar: "khalid.webp",
   },
 ];
 

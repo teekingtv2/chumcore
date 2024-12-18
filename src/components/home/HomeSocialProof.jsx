@@ -33,6 +33,7 @@ const HomeSocialProof = () => {
                 key={i}
                 username={item.username}
                 testimonial={item.testimonial}
+                avatar={item.avatar}
               />
             ))}
         </div>

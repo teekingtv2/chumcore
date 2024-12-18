@@ -24,7 +24,12 @@ const HomeImpact = () => {
                     : ""
                 }
               >
-                <img src="/assets/images/home/review1.png" alt="" />
+                <img
+                  src="/assets/images/home/Impact.webp"
+                  alt=""
+                  // className="rounded-2xl"
+                  style={{ boxShadow: "6px 6px 6px #222" }}
+                />
               </div>
             )}
           </TrackVisibility>

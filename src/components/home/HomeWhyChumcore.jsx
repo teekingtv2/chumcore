@@ -72,9 +72,10 @@ const HomeWhyChumcore = () => {
           </div>
           <div className="col-span-1">
             <img
-              src="/assets/images/home/Why_ChumCore_section.webp"
+              src="/assets/images/home/Why_ChumCore.webp"
               alt=""
               className="updown"
+              style={{ boxShadow: "6px 6px 6px #222" }}
             />
           </div>
         </div>

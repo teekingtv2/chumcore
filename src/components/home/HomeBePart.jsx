@@ -6,7 +6,7 @@ const HomeBePart = () => {
   const [show, setShow] = useState(false);
   return (
     <div className="w-full banner-section text-white">
-      <div className="container pt-16 pb-32 items-center px-8 md:px-0">
+      <div className="container py-16 items-center px-8 md:px-0">
         <div className="flex flex-col items-center gap-8">
           <div className="text-center text-xl md:text-xl font-semibold">
             Be Part of the Chumcore Community!

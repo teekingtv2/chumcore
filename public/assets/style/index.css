@@ -126,7 +126,7 @@ html {
   box-shadow: 4px 4px 8px #2222225e;
 }
 .card-box2 {
-  @apply bg-[#EF6C2B] rounded-[30px] p-8 md:p-12;
+  @apply bg-[#EF6C2B] rounded-[30px] p-8 md:p-12 h-max md:h-[450px];
   box-shadow: 4px 4px 8px #22222289;
 }
 .title-box {
