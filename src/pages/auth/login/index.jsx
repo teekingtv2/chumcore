@@ -4,6 +4,9 @@ import { validateLogin } from "../../../utils/validate";
 import InputField from "../../../components/globals/InputField";
 import SubmitButton from "../../../components/globals/SubmitButton";
 import CustomFormik from "../../../utils/CustomFormik";
+import axios from "axios";
+import { errorNotification, successNotification } from "../../../utils/helpers";
+axios.defaults.withCredentials = true;
 
 const LoginPage = ({ show, setShow }) => {
   console.log({ show });
@@ -16,21 +19,22 @@ const LoginPage = ({ show, setShow }) => {
       console.log(values);
     }, 3000);
 
-    // const response = await axios.post(
-    //   `${import.meta.env.VITE_API_URL}/user-auth/verify-email`,
-    //   values
-    // );
-    // console.log(response);
-    // try {
-    //   if (response.status === 200) {
-    //     const data = response.data;
-    //     successNotification(data.message);
-    //   } else {
-    //     errorNotification(response?.data?.error);
-    //   }
-    // } catch (error) {
-    //   errorNotification(error?.response?.data?.error);
-    // }
+    const response = await axios.post(
+      `${import.meta.env.VITE_API_URL}/admin-auth/login`,
+      values
+    );
+    console.log({ response });
+    try {
+      if (response.status === 200) {
+        const data = response.data;
+        successNotification(data.message);
+        window.location.replace(`/dashboard`);
+      } else {
+        errorNotification(response?.data?.error);
+      }
+    } catch (error) {
+      errorNotification(error?.response?.data?.error);
+    }
   };
 
   return (

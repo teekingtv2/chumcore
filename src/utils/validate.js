@@ -26,12 +26,12 @@ export const validateSignup = () => {
 export const validateUpdateProfile = () => {
   const phoneRegExp = /^[\d|\+|\(]+[\)|\d|\s|-]*[\d]$/;
   const validationSchema = yup.object({
-    name: yup.string().trim().required("Name is missing"),
-    country: yup.string().trim().required("Please select your country"),
-    phone: yup
+    email: yup.string().email("Invalid email").required("Email is missing"),
+    username: yup.string().trim().required("Name is missing"),
+    password: yup
       .string()
-      .matches(phoneRegExp, "Invalid phone number. Follow the sample")
-      .required("Phone number is missing"),
+      .required("Account Password is required")
+      .min(8, "Password is too short"),
   });
   return validationSchema;
 };

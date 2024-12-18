@@ -15,10 +15,9 @@ export const signUpValues = () => {
 
 export const updateProfileValues = (data) => {
   const initialValues = {
-    name: data.name,
-    email: data.email,
-    phone: data.phone,
-    country: data.country,
+    username: data ? data.username : "",
+    email: data ? data.email : "",
+    password: data ? data.password : "",
   };
   return initialValues;
 };

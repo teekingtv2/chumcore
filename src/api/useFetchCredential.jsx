@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import { errorNotification } from '../utils/helpers';
+import { useEffect, useState } from "react";
+import axios from "axios";
+import { errorNotification } from "../utils/helpers";
 axios.defaults.withCredentials = true;
 
 const useFetchCredential = (url) => {
@@ -22,11 +22,12 @@ const useFetchCredential = (url) => {
         setLoading(false);
       })
       .catch((err) => {
-        if (err.name === 'CanceledError') {
+        if (err.name === "CanceledError") {
         } else {
           setLoading(false);
           setError(err?.response?.data?.error);
           errorNotification(err?.response?.data?.error);
+          console.log({ err });
           if (err?.response.status === 209) {
             setTimeout(() => {
               window.location.replace(`/login`);

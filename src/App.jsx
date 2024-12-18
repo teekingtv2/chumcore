@@ -7,6 +7,7 @@ import Footer from "./components/globals/Footer.jsx";
 import LoginPage from "./pages/auth/login/index.jsx";
 import DashboardPage from "./pages/dashboard/index.jsx";
 import "react-toastify/dist/ReactToastify.css";
+import UpdateLoginPage from "./pages/dashboard/update-login.jsx";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/*" element={<NotFound />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="/update-login" element={<UpdateLoginPage />} />
           </Routes>
           <Footer />
         </div>

@@ -1,7 +1,7 @@
-import React from "react";
 import Table from "../../components/globals/Table";
-import { signupData } from "../../utils/data";
 import useFetch from "../../api/useFetch";
+import DashboardTop from "../../components/dashboard/DashboardTop";
+import useFetchCredential from "../../api/useFetchCredential";
 
 const columns = [
   {
@@ -31,7 +31,7 @@ const DashboardPage = () => {
     </tr>
   );
 
-  const { data, loading } = useFetch(`general/all-users`);
+  const { data, loading } = useFetchCredential(`general/all-users`);
   console.log({ data });
 
   return (
@@ -42,6 +42,8 @@ const DashboardPage = () => {
             <h2 className="text-lg md:text-xl">Welcome, Admin</h2>
             <p className="">See the registered users below</p>
           </div>
+
+          <DashboardTop />
 
           {/* <div className="impact py-1 px-2 h-max rounded-lg flex justify-between items-center cursor-pointer text-white font-semibold">
             <span>Export CSV</span>
