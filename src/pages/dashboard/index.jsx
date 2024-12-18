@@ -1,11 +1,12 @@
 import React from "react";
 import Table from "../../components/globals/Table";
 import { signupData } from "../../utils/data";
+import useFetch from "../../api/useFetch";
 
 const columns = [
   {
     header: "S/N",
-    accessor: "email",
+    accessor: "sn",
   },
   {
     header: "Email",
@@ -30,6 +31,9 @@ const DashboardPage = () => {
     </tr>
   );
 
+  const { data, loading } = useFetch(`general/all-users`);
+  console.log({ data });
+
   return (
     <div className="w-screen h-[65vh]">
       <div className="max-w-[700px] h-full m-auto px-5 md:px-0 flex flex-col justify-center">
@@ -39,12 +43,14 @@ const DashboardPage = () => {
             <p className="">See the registered users below</p>
           </div>
 
-          <div className="impact py-1 px-2 h-max rounded-lg flex justify-between items-center cursor-pointer text-white font-semibold">
+          {/* <div className="impact py-1 px-2 h-max rounded-lg flex justify-between items-center cursor-pointer text-white font-semibold">
             <span>Export CSV</span>
-          </div>
+          </div> */}
         </div>
         <div className="w-full overflow-y-scroll">
-          <Table columns={columns} renderRow={renderRow} data={signupData} />
+          {data && (
+            <Table columns={columns} renderRow={renderRow} data={data.data} />
+          )}
         </div>
       </div>
     </div>
