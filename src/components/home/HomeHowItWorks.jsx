@@ -14,10 +14,6 @@ const HomeHowItWorks = () => {
               <FaQuestion />
             </div>
           </div>
-          {/* <h1 className="text-[28px] md:text-[40px] font-medium mb-4 ">
-            Here is <span className="font-bold">how</span> it{" "}
-            <span className="font-bold">works</span>
-          </h1> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           {howItWorksData &&

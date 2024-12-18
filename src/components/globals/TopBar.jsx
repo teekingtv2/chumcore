@@ -9,21 +9,21 @@ const TopBar = () => {
         <div className="hidden md:flex gap-1 h-full">
           <Link
             to="https://www.instagram.com/chumcoreapp"
-            className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
+            className="hidden md:inline-block cursor-pointer hover:scale-125 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
             target="_blank"
           >
             <FaInstagram />
           </Link>
           <Link
             to="https://youtube.com/@chumcoreapp"
-            className="hidden md:inline-block cursor-pointer hover:scale-105 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
+            className="hidden md:inline-block cursor-pointer hover:scale-125 ease-in duration-300 border-l-[1px] border-[#ffffff71] py-4 px-3"
             target="_blank"
           >
             <FaYoutube />
           </Link>
           <Link
             to="https://www.tiktok.com/@chumcore"
-            className="cursor-pointer hover:scale-105 ease-in duration-300 border-x-[1px] border-[#ffffff71] py-4 px-3"
+            className="cursor-pointer hover:scale-125 ease-in duration-300 border-x-[1px] border-[#ffffff71] py-4 px-3"
             target="_blank"
           >
             <FaTiktok />
@@ -40,7 +40,7 @@ const TopBar = () => {
 
         <Link
           to="mailto:info@chumcore.io"
-          className="w-max flex gap-2 justify-center items-center border-l-[1px] border-r-[1px] border-[#ffffffa1] py-3 px-2 md:px-5"
+          className="w-max flex gap-2 justify-center items-center border-l-[1px] border-r-[1px] border-[#ffffffa1] py-3 px-2 md:px-5 hover:scale-110 ease-in duration-300"
           target="_blank"
         >
           <FaMailBulk />

@@ -7,6 +7,9 @@ import HomeSectionFour from "../../components/home/HomeSectionFour";
 import HomeWhyChumcore from "../../components/home/HomeWhyChumcore";
 import TopBar from "../../components/globals/TopBar";
 import HomeSectionTwo from "../../components/home/HomeSectionTwo";
+import HomeSocialProof from "../../components/home/HomeSocialProof";
+import HomeBePart from "../../components/home/HomeBePart";
+import HomeImpact from "../../components/home/HomeImpact";
 
 const HomePage = () => {
   return (
@@ -16,6 +19,9 @@ const HomePage = () => {
       <HomeSectionTwo />
       <HomeHowItWorks />
       <HomeWhyChumcore />
+      <HomeSocialProof />
+      <HomeImpact />
+      <HomeBePart />
     </>
   );
 };

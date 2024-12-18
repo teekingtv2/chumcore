@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaInstagram, FaYoutube, FaTiktok } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import TopBar from "./TopBar";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-axios.defaults.withCredentials = true;
-// import useFetchCredential from "../api/useFetchCredential";
+import Signup from "../home/Signup";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
+  const [show, setShow] = useState(false);
 
   const handleNavToggle = () => {
     setNav(!nav);
@@ -62,13 +61,27 @@ const NavBar = () => {
                 >
                   Why Us
                 </AnchorLink>
+                <AnchorLink
+                  href="#social-proof"
+                  className={
+                    activeLink === "#social-proof"
+                      ? "active menu-link"
+                      : "menu-link"
+                  }
+                  onClick={() => onUpdateActiveLink("#social-proof")}
+                >
+                  Social Proof
+                </AnchorLink>
               </ul>
               <div onClick={handleNavToggle} className="md:hidden">
                 <AiOutlineMenu className="text-gray-900" size={25} />
               </div>
             </div>
 
-            <div className="hidden md:block title-box py-[10px] px-14 font-semibold">
+            <div
+              onClick={() => setShow(true)}
+              className="hidden md:block title-box py-[10px] px-14 font-semibold cursor-pointer"
+            >
               Sign Up
             </div>
           </div>
@@ -179,6 +192,8 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+
+      <Signup show={show} setShow={setShow} />
     </>
   );
 };

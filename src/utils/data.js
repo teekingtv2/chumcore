@@ -65,3 +65,116 @@ export const dashboardServices = [
     description: "Retrieve your assets from investments",
   },
 ];
+
+export const socialData = [
+  {
+    username: "John Doe",
+    testimonial:
+      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+  },
+  {
+    username: "John Doe",
+    testimonial:
+      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+  },
+  {
+    username: "John Doe",
+    testimonial:
+      "I found my favorite brunch spot through Chumcore—thanks to Khaya's recommendation!",
+  },
+];
+
+export const signupData = [
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+  {
+    email: "test@mail.com",
+    location: "Lagos, Nigeria",
+  },
+];

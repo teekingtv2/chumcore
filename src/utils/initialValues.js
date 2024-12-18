@@ -8,10 +8,7 @@ export const loginValues = () => {
 
 export const signUpValues = () => {
   const initialValues = {
-    name: "",
     email: "",
-    password: "",
-    confirmPassword: "",
   };
   return initialValues;
 };
