@@ -1,7 +1,6 @@
 import Table from "../../components/globals/Table";
 import useFetch from "../../api/useFetch";
 import DashboardTop from "../../components/dashboard/DashboardTop";
-import useFetchCredential from "../../api/useFetchCredential";
 
 const columns = [
   {
@@ -31,7 +30,7 @@ const DashboardPage = () => {
     </tr>
   );
 
-  const { data, loading } = useFetchCredential(`general/all-users`);
+  const { data, loading } = useFetch(`general/all-users`);
   console.log({ data });
 
   return (
