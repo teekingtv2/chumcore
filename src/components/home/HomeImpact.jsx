@@ -2,7 +2,7 @@ import TrackVisibility from "react-on-screen";
 
 const HomeImpact = () => {
   return (
-    <div className="w-full impact text-white" id="how-it-works">
+    <div className="w-full bg-[#ffffff] text-[#222]" id="how-it-works">
       <div className="container py-24 md:py-28 items-center px-7 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="col-span-1 lg:px-10">
           <h2 className="text-4xl text-center md:text-start mb-8">
@@ -27,7 +27,7 @@ const HomeImpact = () => {
                 <img
                   src="/assets/images/home/Impact.webp"
                   alt=""
-                  // className="rounded-2xl"
+                  className="dancingSlide"
                   style={{ boxShadow: "6px 6px 6px #222" }}
                 />
               </div>

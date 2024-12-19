@@ -42,7 +42,7 @@ const DashboardPage = () => {
             <p className="">See the registered users below</p>
           </div>
 
-          <DashboardTop />
+          {/* <DashboardTop /> */}
 
           {/* <div className="impact py-1 px-2 h-max rounded-lg flex justify-between items-center cursor-pointer text-white font-semibold">
             <span>Export CSV</span>

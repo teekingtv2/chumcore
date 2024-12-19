@@ -1,4 +1,3 @@
-import React from "react";
 import { FaQuestion } from "react-icons/fa";
 import TrackVisibility from "react-on-screen";
 
@@ -18,19 +17,17 @@ const HomeWhyChumcore = () => {
                   <FaQuestion />
                 </div>
               </div>
-              {/* <h1 className="text-[27px] md:text-[40px] font-medium mb-5 ">
-                Why <span className="font-bold">Chumcore</span>?
-              </h1> */}
             </div>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible
-                      ? "animate__slower animate__animated animate__fadeIn col-span-1 flex flex-col gap-7 md:gap-[30px]"
-                      : "col-span-1 flex flex-col gap-7 md:gap-[30px]"
-                  }
-                >
+                // <div
+                //   className={
+                //     isVisible
+                //       ? "animate__slower animate__animated animate__fadeIn col-span-1 flex flex-col gap-7 md:gap-[30px]"
+                //       : "col-span-1 flex flex-col gap-7 md:gap-[30px]"
+                //   }
+                // >
+                <div className="animate__slower animate__animated animate__fadeIn col-span-1 flex flex-col gap-7 md:gap-[30px]">
                   <div className="p-5 rounded-lg flex flex-col gap-5 hover:scale-105 ease-in duration-300 border-chumWine border-[1.5px] md:border-[3px]">
                     <div className="flex items-center gap-7">
                       <p className="w-[50px] h-[50px] flex justify-center items-center rounded-full bg-chumWine text-white text-xl font-bold">

@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <div className="bottom-0 w-full z-30 md:px-0 bg-[#000] text-[#fff] py-8">
       <div className="header-container px-5 md:px-0 flex flex-col items-center">
-        <div className="text-[12px] md:text-[13px] mb-2">
+        {/* <div className="text-[12px] md:text-[13px] mb-2">
           © 2024 {import.meta.env.VITE_APP_NAME}. All rights reserved
-        </div>
-        <div className="flex gap-1 md:gap-2">
+        </div> */}
+        <div className="flex gap-1 md:gap-2 text-2xl">
           <Link
             to="https://www.instagram.com/chumcoreapp"
             className="cursor-pointer hover:scale-125 ease-in duration-300 px-2"

@@ -14,7 +14,7 @@ const HomeSocialProof = () => {
               <FaComment />
             </div>
           </div>
-          <div className="flex items-center justify-center gap-6 mb-8 text-[#FB2564]">
+          {/* <div className="flex items-center justify-center gap-6 mb-8 text-[#FB2564]">
             <img
               src="/assets/images/home/avatars.png"
               alt=""
@@ -24,7 +24,7 @@ const HomeSocialProof = () => {
               <span className="text-3xl font-bold">1000+</span>
               <span className="">Active Subscribers</span>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 px-6">
           {socialData &&

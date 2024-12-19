@@ -39,7 +39,7 @@ const HomeSectionOne = () => {
               )}
             </TrackVisibility>
             <div onClick={() => setShow(true)} to="" className="flex mt-8">
-              <div className="title-box py-4 px-10 text-[16px] font-bold flex justify-center items-center hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="updown title-box py-4 px-10 text-[16px] font-bold flex justify-center items-center hover:scale-105 ease-in duration-300 cursor-pointer">
                 <span className="mr-2">Join Chumcore</span>
                 <span>
                   <FaArrowCircleRight />

@@ -1,5 +1,5 @@
 import React from "react";
-import { howItWorksData, partnerLogos } from "../../utils/data";
+import { howItWorksData } from "../../utils/data";
 import HowCard from "./HowCard";
 import { FaQuestion } from "react-icons/fa/index.esm";
 
